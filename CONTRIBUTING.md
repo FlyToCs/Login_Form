@@ -1,13 +1,12 @@
-Thank you! ❤️
+# Thank you! ❤️
+
 Thank you for contributing to our awesome resources.
 
-Guidelines
-One item per Pull Request.
+## Guidelines
 
-Add a link of the resource in PR comment section.
+- **One item** per Pull Request.
+- place your login_form in a folder
+- your login_form would rather be ltr
+- the folder name must be uniq and be relevant 
 
-Pull request should include a link to the resource and a short description.
-
-The resource must be completely free or to have a free tier.
-
-Thank you! ❤️
+## Thank you! ❤️
