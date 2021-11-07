@@ -1,0 +1,59 @@
+main {
+  position: relative;
+  height: 100vh;
+}
+main section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+main section.sign-in-form {
+  padding: 1rem;
+  box-shadow: 0 0 20px 0px #242424;
+}
+main section.sign-in-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+main section.sign-in-form form span.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #cfcfcf;
+}
+main section.sign-in-form form span.forgetPass {
+  text-align: end;
+  padding-right: 0.75rem;
+  color: #efefef;
+}
+main section.sign-in-form form label {
+  color: #fff;
+}
+main section.sign-in-form form > label {
+  font-weight: 500;
+}
+
+main section.sign-in-form form input {
+  margin-bottom: 0.5rem;
+  outline: none;
+  border: 0.09rem solid #a1a0a0;
+  overflow: hidden;
+  border-radius: 0.3rem;
+  height: 0.7rem;
+  padding: 1rem;
+}
+main section.sign-in-form form button {
+  width: 12rem;
+  border: none;
+  align-self: center;
+  background: #0072ff;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  border-radius: 3rem;
+  font-size: 20px;
+  color: #fff;
+}
