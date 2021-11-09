@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+body * {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  color: #ededed;
+}
+#mini-login-form {
+  position: relative;
+  display: inline-block;
+}
+#mini-login-form > *:not(svg) {
+  height: 48px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 48px;
+  background-color: #1f1f1f;
+}
+#loginbtn {
+  width: 152px;
+  cursor: pointer;
+}
+#loginbtn:hover {
+  background-color: #0e0e0e;
+}
+#emailbtn,
+#passbtn {
+  width: 304px;
+  padding: 16px;
+  display: none;
+  cursor: text;
+}
+#nextbtn,
+#finishbtn {
+  position: absolute;
+  display: none;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+}
+#welcome {
+  display: none;
+  width: 152px;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  animation: hide 1s 0.5s alternate forwards;
+}
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
