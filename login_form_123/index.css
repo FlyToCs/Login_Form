@@ -1,0 +1,105 @@
+*{
+    background-color: rgb(229, 236, 248);
+}
+div {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    background-color: #fff;
+    text-align: center;
+    border-radius:8px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px white ,-5px -5px 5px white;
+    background: linear-gradient(to top , #fffbfb, #a7cfe6) ;
+}
+h2{
+    font-size: 30px;
+    font-style: oblique;
+    width: 300px;
+    margin: 30px auto;
+    margin-top: 0px;
+    margin-bottom:25px;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    background-color: inherit;
+    text-shadow: 2px 2px 2px rgb(171, 216, 241),
+    -2px -2px 2px rgb(42, 145, 192);
+    text-align: center;
+    
+    letter-spacing: 2px;
+}
+
+form{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 400px;
+    margin: inherit 10px;
+    padding: 30px 5px;
+    padding-top:10px;
+    background-color:inherit;
+    box-sizing: border-box;
+    text-align: center;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+input[placeholder]{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height:40px;
+    width: 300px;
+    margin: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 2px;
+    border: 2px  solid #7471fd;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 900;
+}
+hr{
+    width: 200px;
+    color: #ffffff;
+    height: 2px;
+    border-radius: 20%;
+}
+label[for="thick"],input[id="thick"]{
+    display:inline-block;
+    background-color:inherit;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+button{
+    display: block;
+    width:200px;
+    height:50px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color:#00a2ff85 ;
+    border-radius:40px;
+    border: 2px solid rgb(221, 221, 221);
+    font-size: 17px;
+    font-weight: 800;
+    font-style: oblique;
+    box-shadow: 5px 5px 5px #b3daf3 , -5px -5px 5px #a4d5f3  ;
+
+    box-sizing: border-box;
+}
+form a{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color: inherit;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    
+}
