@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+:root {
+  /* colors */
+  --primary-color: #00171f;
+  --secondry-color: #fff;
+}
 body {
   display: flex;
   height: 100vh;
@@ -8,43 +13,43 @@ body {
 body * {
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
-  color: #ededed;
+  color: var(--secondry-color);
 }
-#mini-login-form {
+.mini-login-form {
   position: relative;
   display: inline-block;
 }
-#mini-login-form > *:not(svg) {
+.mini-login-form > *:not(svg) {
   height: 48px;
   border: none;
   outline: none;
-  font-size: 17px;
+  font-size: 18px;
   border-radius: 48px;
-  background-color: #1f1f1f;
+  background-color: var(--primary-color);
 }
-#loginbtn {
+.login-btn {
   width: 152px;
   cursor: pointer;
 }
-#loginbtn:hover {
+.loginbtn:hover {
   background-color: #0e0e0e;
 }
-#emailbtn,
-#passbtn {
+.email-input,
+.password-input {
   width: 304px;
   padding: 16px;
   display: none;
   cursor: text;
 }
-#nextbtn,
-#finishbtn {
+.validation-email-btn,
+.validation-password-btn {
   position: absolute;
   display: none;
   top: 3px;
   right: 3px;
   cursor: pointer;
 }
-#welcome {
+.welcome-massage {
   display: none;
   width: 152px;
   justify-content: center;
