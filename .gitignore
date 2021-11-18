@@ -13,13 +13,14 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+Login_simple_pure_html_Css.v12
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
 # Mono auto generated files
 mono_crash.*
-
+Web.config
+Web.Debug.config
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
