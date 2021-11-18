@@ -40,3 +40,37 @@ function x(functionName) {
       break;
   }
 }
+
+// This method checks the input value with the pattern and if the value is allowed
+// allows the user to go to the next level
+function validateForm(formName, inputName, regex, functionName) {
+  let inputValue = document.forms[formName][inputName].value;
+  if (regex.test(inputValue)) {
+    switch (functionName) {
+      case "nextBtn":
+        nextBtn()
+        break;
+      case "finishBtn":
+        finishBtn()
+        break;
+    }
+  } else {
+    alert("Invalid input");
+  }
+}
+
+// This method, when the user clicks on the continue button after writing her email,
+// launches the email validation by providing the required parameters of the
+// validateForm()
+function validateEmail() {
+  const regexForEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  validateForm("loginForm", "email", regexForEmail, "nextBtn");
+}
+
+// This method, when the user clicks on the continue button after writing her
+// password, launches the email validation by providing the required parameters
+// of the validateForm()
+function validatePassword() {
+  const regexForPassword = /.{8,}/;
+  validateForm("loginForm", "pass", regexForPassword, "finishBtn");
+}
