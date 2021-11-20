@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimalistic Login Form</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <!-- minimalistic login form -->
+    <form action="" class="mini-login-form" name="loginForm" autocomplete>
+      <input class="login-btn" type="button" value="Login" onclick="login()" />
+      <input
+        class="email-input"
+        name="email"
+        type="email"
+        placeholder="email"
+      />
+      <svg
+        class="validation-email-btn"
+        onclick="validateEmail()"
+        xmlns="http://www.w3.org/2000/svg"
+        width="42"
+        height="42"
+        viewbox="0 0 42 42"
+      >
+        <g id="Group_21" data-name="Group 21" transform="translate(-742 -260)">
+          <circle
+            id="Ellipse_1"
+            data-name="Ellipse 1"
+            cx="21"
+            cy="21"
+            r="21"
+            transform="translate(742 260)"
+            fill="#fff"
+          />
+          <g id="Group_19" data-name="Group 19" transform="translate(-0.5 1)">
+            <line
+              id="Line_1"
+              data-name="Line 1"
+              x2="10"
+              y2="10.5"
+              transform="translate(759.5 272)"
+              fill="none"
+              stroke="#00171f"
+              stroke-width="3.5"
+            />
+            <line
+              id="Line_2"
+              data-name="Line 2"
+              y1="9"
+              x2="9"
+              transform="translate(759.5 281)"
+              fill="none"
+              stroke="#00171f"
+              stroke-width="3.5"
+            />
+          </g>
+        </g>
+      </svg>
+      <input
+        class="password-input"
+        type="password"
+        placeholder="password"
+        name="pass"
+      />
+      <svg
+        class="validation-password-btn"
+        onclick="validatePassword()"
+        xmlns="http://www.w3.org/2000/svg"
+        width="42"
+        height="42"
+        viewbox="0 0 42 42"
+      >
+        <g id="group_21" data-name="Group 21" transform="translate(-742 -260)">
+          <circle
+            id="ellipse_1"
+            data-name="ellipse 1"
+            cx="21"
+            cy="21"
+            r="21"
+            transform="translate(742 260)"
+            fill="#fff"
+          />
+          <g id="group_19" data-name="Group 19" transform="translate(-0.5 1)">
+            <line
+              id="line_1"
+              data-name="Line 1"
+              x2="10"
+              y2="10.5"
+              transform="translate(759.5 272)"
+              fill="none"
+              stroke="#00171f"
+              stroke-width="3.5"
+            />
+            <line
+              id="line_2"
+              data-name="Line 2"
+              y1="9"
+              x2="9"
+              transform="translate(759.5 281)"
+              fill="none"
+              stroke="#00171f"
+              stroke-width="3.5"
+            />
+          </g>
+        </g>
+      </svg>
+      <span class="welcome-massage">Welcome</span>
+    </form>
+  </body>
+</html>
