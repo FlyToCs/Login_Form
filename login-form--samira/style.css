@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "byekan";
+    src: url("../fonts/Yekan.eot?#eot") format("eot"),
+    url("../fonts/Yekan.woff") format("woff"),
+    url("../fonts/Yekan.woff2") format("woff2"),
+    url("../fonts/Yekan.svg") format("svg"),
+    url("../fonts/Yekan.ttf") format("ttf");
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "byekan";
+}
+.container{
+    width: 500px;
+    height: 550px;
+    margin: 200px auto;
+    border: 1px solid lightgray;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.header-img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.header-img img{
+    width: 100%;
+    height: 100%;
+}
+.header-img span{
+    position: absolute;
+    top:70px;
+    left: 200px;
+    color:#fff;
+    font-size: 40px;
+    
+}
+label{
+    padding-left:20px ;
+
+}
+input{
+    margin: 15px;
+    padding:10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+input:focus{
+    content: "";
+    outline: unset;
+    transform: scale(1.02);
+
+}
+
+.links{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+}
+
+
+.submit{
+    width: 150px;
+    margin:50px auto;
+    border-radius: 20px;
+    background-color: lightgreen;
+    padding: 5px;
+    text-align: center;
+}
